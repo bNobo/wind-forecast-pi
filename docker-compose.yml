@@ -1,0 +1,9 @@
+# docker-compose run windy
+version: "3.9"
+services:
+  windy:    
+    build: .
+    #image: raspbian/stretch
+    #entrypoint: /bin/bash
+    volumes:
+      - .:/usr/bin/windy
