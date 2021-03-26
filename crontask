@@ -1,0 +1,1 @@
+0 0/3 * * * /usr/bin/windy/get-forecast.sh | python3 /usr/bin/windy/get-forecast.py >> /var/log/windy.log
