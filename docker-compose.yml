@@ -7,3 +7,5 @@ services:
     #entrypoint: /bin/bash
     volumes:
       - .:/usr/bin/windy
+    #stdin_open: true
+    #tty: true
